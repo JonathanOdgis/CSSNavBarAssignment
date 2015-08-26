@@ -1,0 +1,83 @@
+.logo
+{
+	margin-left: 40%;
+}
+body
+{
+	background-color: lightgrey;
+}
+
+nav
+{
+	position: absolute;
+	left: 25%;
+	width: 700px;
+	height: 400px;
+	background-color: lightblue;
+}
+
+.navBar
+{
+	list-style-type: none;
+    margin-top: 0;
+    padding-left: 15;
+}
+
+.navBarPanel
+{
+	display: inline;
+	background-color: green;
+	float: left;
+	height: 18px;
+	display: inline;
+	padding-left: 50;
+	padding-right: 30;
+	border-style: solid;
+
+}
+
+#aboutUs
+{
+	height: 18px;
+}
+
+.navBarPanel:hover
+{
+	background-color: lightgreen;
+}
+
+#aboutUs .aboutUsDropdown li
+{
+	visibility: hidden;	
+}
+
+#aboutUs:hover .aboutUsDropdown li
+{
+	visibility: visible;
+}
+
+#archives .archivesDropdown li
+{
+	visibility: hidden;	
+}
+
+#archives:hover .archivesDropdown li
+{
+	visibility: visible;
+
+}
+
+#dropdownItem
+{
+	background-color: blue;
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	border-style: solid;
+}
+
+#dropdownItem:hover
+{
+	background-color: darkblue;
+}
+
