@@ -1,6 +1,7 @@
 .logo
 {
-	margin-left: 40%;
+	margin-left: 38%;
+	font-family: Helvetica;
 }
 body
 {
@@ -20,7 +21,7 @@ nav
 {
 	list-style-type: none;
     margin-top: 0;
-    padding-left: 15;
+    padding-left: 15;  
 }
 
 .navBarPanel
@@ -32,8 +33,10 @@ nav
 	display: inline;
 	padding-left: 50;
 	padding-right: 30;
-	border-style: solid;
-
+    border-radius: 2;
+	font-family: Helvetica;
+    opacity: .8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */       
 }
 
 #aboutUs
@@ -73,7 +76,6 @@ nav
 	list-style-type: none;
 	padding-top: 20px;
 	padding-bottom: 0px;
-	border-style: solid;
 }
 
 #dropdownItem:hover
